@@ -65,7 +65,7 @@ def get_pie_chart(entered_site):
     if entered_site == 'ALL':
         fig = px.pie(filtered_df, values='class', 
             names='Launch Site', 
-            title='Total success launces by sites')
+            title='Total success launces by all sites')
         return fig
     else:
         # return the outcomes piechart for a selected site
